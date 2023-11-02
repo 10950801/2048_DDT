@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>支持烏克蘭 - 捐贈物資</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet"> <!-- 如果有自定義樣式表，請連結這裡 -->
+</head>
+<body>
+
+  <div class="container text-center mt-5">
+    <h1>支持烏克蘭 - 捐贈物資</h1>
+    <p>加入我們，為烏克蘭提供您的支持，填寫下方表格以捐贈必要物資。</p>
+
+    <form>
+      <div class="form-group">
+        <label for="name">姓名</label>
+        <input type="text" class="form-control" id="name" placeholder="請輸入您的姓名" required>
+      </div>
+      <div class="form-group">
+        <label for="email">電子郵件</label>
+        <input type="email" class="form-control" id="email" placeholder="請輸入您的電子郵件" required>
+      </div>
+      <div class="form-group">
+        <label for="address">地址</label>
+        <input type="text" class="form-control" id="address" placeholder="請輸入您的地址" required>
+      </div>
+      <div class="form-group">
+        <label for="supplies">捐贈物資清單</label>
+        <textarea class="form-control" id="supplies" rows="3" placeholder="列出您希望捐贈的物資" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">捐贈物資</button>
+    </form>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
